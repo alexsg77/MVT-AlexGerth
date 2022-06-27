@@ -45,6 +45,7 @@ ETAPA 4 LEVANTANDO EL PROYECTO
 ***con el entorno virtual activo (deberia estarlo) y para crear nuestra base de datos escribimos por unica vez en consola: python manage.py migrate
 *** iniciamos el servidor en LocalHost escribiendo en la consola: python manage.py runserver
 *** podemos acceder a nuestro proyecto ingresando con el navegador a http://127.0.0.1:8000/
+***
 ---------------------------------------------------------------------------------------------------------------
 ETAPA 5 NO EXISTE
 ***a partir de ahora es trabajar en el proyecto dependiendo lo que se busque hacer***
