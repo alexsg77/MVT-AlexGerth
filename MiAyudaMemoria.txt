@@ -3,10 +3,11 @@
 ***abrir dicha carpeta con click derecho "abrir con Vscode"
 ***crear entorno virtual usando la consola bash en vscode tipeando: python -m venv venv
 ***activar el entorno virtual tipeando en la consola bash: source venv/Scripts/activate
-***crear el git ignore: se sugiere ponerle: venve - __pycache__ - db.sqlite3
+***crear el git ignore: se sugiere ponerle: venve - __pycache__ - db.sqlite3  (depende lo que pretendamos hacer se pone o no el db.sqlite3)
 ***inicar el git con: git init
 ***le decimos a Django que inicie un proyecto con: django-admin startproject MVTALEXGERTH
 ***se va a crear la carpeta MVTALEXGERTH con otra carpeta adentro llamada MVTALEXGERTH le cambiamos 
 el nombre a la primera y sacamos la segunda al directorio principal para que quede al mismo nivel 
 que la carpeta venv, extraemos al lugar tambien el archivo manage.py
-***deberiamos tener (en esta caso) la el directorio principal los siguientes 4 "archivos": MVTALEXGERTH / VENV / .gitignore / manage.py
+***STOP Y CONTROL: deberiamos tener (en esta caso) en el directorio principal al mismo nivel los siguientes 4 "archivos": MVTALEXGERTH / VENV / .gitignore / manage.py 
+*** hacemos un git add . para que los cambios realizados pasen de a estado staged
